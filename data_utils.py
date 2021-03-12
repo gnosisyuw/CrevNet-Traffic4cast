@@ -6,10 +6,6 @@ import os
 import numpy as np
 from sklearn.manifold import TSNE
 import scipy.misc
-import matplotlib
-
-matplotlib.use('agg')
-import matplotlib.pyplot as plt
 import functools
 from skimage.measure import compare_psnr as psnr_metric
 from skimage.measure import compare_ssim as ssim_metric
