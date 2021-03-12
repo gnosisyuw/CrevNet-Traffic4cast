@@ -4,7 +4,6 @@ import socket
 import argparse
 import os
 import numpy as np
-from sklearn.manifold import TSNE
 import scipy.misc
 import matplotlib
 
